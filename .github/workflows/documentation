@@ -1,0 +1,29 @@
+Live Knowledge Graph Visualization - AASWE automatically generates comprehensive Neo4j graph databases showing your codebase structure. The example above shows a java codebase:
+
+** Module Nodes**: Each directory/module represented as connected nodes
+** Dependency Relationships**: Clear visualization of how modules depend on each other
+** Entity Metrics**: Real class, method, and function counts displayed on nodes
+** Architecture Patterns**: Visual detection of architectural layers and patterns
+Interactive Exploration: Click and explore your codebase structure in real-time
+Features
+Semantic Knowledge Generation
+TTL Files: Structured semantic knowledge in RDF/TTL format for each module
+Real Entity Counts: Actual class, function, and dependency statistics
+Module-Level Context: Comprehensive analysis of code structure and relationships
+Business Context: Preserves developer annotations and domain knowledge
+Multi-Language Code Analysis
+12 Languages: TypeScript, JavaScript, Python, Java, Go, Rust, C++, C#, PHP, Ruby, Kotlin, Scala, Swift
+Recursive Discovery: Finds and analyzes all source files throughout project tree
+Concrete Information: Real class names, method signatures, dependencies, imports
+Architectural Patterns: Detects common design patterns and code structures
+Universal IDE Integration via MCP
+Model Context Protocol: Works with any MCP-compatible IDE
+Dual Transport: WebSocket and Stdio support for maximum compatibility
+RooCode/Cline: Stdio transport for CLI-based IDEs
+VS Code/Cursor: WebSocket transport for GUI IDEs
+Real-time Updates: File watching and automatic context refresh
+Flexible Deployment Options
+Context-Only Mode: TTL files only (recommended for most users)
+Full System Mode: Neo4j + MCP Server + Redis for advanced features
+Docker Compose: Complete containerized deployment
+Local Installation: NPM package for easy setup
